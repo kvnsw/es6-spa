@@ -1,0 +1,66 @@
+@import '../../styles/base.css';
+
+#users-wrap {
+	@apply --txt-center;
+	@apply --c-margin;
+
+	width: 80%;
+
+	& p {
+		@apply --large;
+	}
+
+	& h1 {
+		@apply --font-bold;
+		@apply --xx-large;
+
+		margin: 30px 0;
+	}
+
+	& ul {
+		margin-top: 40px;
+
+		& a {
+			@apply --bg-lgray;
+			@apply --medium;
+			@apply --gray;
+			@apply --c-margin;
+			@apply --transition;
+
+			text-decoration: none;
+			display: table;
+			padding: 15px 10px;
+
+			&:not(:first-of-type) {
+				margin-top: 20px;
+			}
+
+			&:hover {
+				@apply --white;
+			}
+		}
+	}
+
+	& #generated-users-wrap {
+		margin: 40px 0;
+
+		& h2 {
+			@apply --font-bold;
+			@apply --x-large;
+
+			margin-bottom: 30px;
+		}
+
+		& .single-user {
+			@apply --medium;
+
+			& p {
+				margin-top: 15px;
+			}
+
+			&:not(:first-of-type) {
+				margin-top: 30px;
+			}
+		}
+	}
+}

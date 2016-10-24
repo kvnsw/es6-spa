@@ -1,0 +1,10 @@
+build/*
+dist/*
+node_modules/*
+**/node_modules/*
+tests.webpack.js
+webpack.config.babel.js
+stylelint.config.js
+karma.conf.js
+karma.conf.babel.js
+app/vendors/*

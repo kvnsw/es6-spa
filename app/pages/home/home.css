@@ -1,0 +1,47 @@
+@import '../../styles/base.css';
+
+#home-wrap {
+	& .text-wrap {
+		@apply --absolute;
+		@apply --txt-center;
+
+		width: 100%;
+		top: 50%;
+		transform: translateY(-50%);
+
+		& p {
+			@apply --large;
+		}
+
+		& h1 {
+			@apply --font-bold;
+			@apply --xx-large;
+
+			margin: 30px 0;
+		}
+
+		& ul {
+			margin-top: 40px;
+
+			& a {
+				@apply --bg-lgray;
+				@apply --medium;
+				@apply --gray;
+				@apply --c-margin;
+				@apply --transition;
+
+				text-decoration: none;
+				display: table;
+				padding: 15px 10px;
+
+				&:not(:first-of-type) {
+					margin-top: 20px;
+				}
+
+				&:hover {
+					@apply --white;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"tags": {
+		"allowUnknownTags": false
+	},
+	"source": {
+		"include": [
+			"app/core/",
+			"app/services/",
+			"app/config/"
+		],
+		"includePattern": ".js$"
+	},
+	"plugins": ["plugins/markdown"],
+	"opts": {
+        "template": "node_modules/docdash/",
+        "encoding": "utf8",
+        "destination": "docs/",
+        "recurse": true,
+        "verbose": true
+    },
+	"markdown": {
+		"parser": "gfm",
+		"hardwrap": true
+	},
+	"templates": {
+		"cleverLinks": false,
+		"monospaceLinks": false,
+		"default": {
+			"outputSourceFiles": true,
+			"includeDate": false
+		}
+	},
+	"docdash": {
+		"static": false,
+		"sort": false
+	}
+}

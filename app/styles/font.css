@@ -1,0 +1,97 @@
+:root {
+	--font-bold: {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+	};
+
+	--font-regular: {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+	};
+
+	--x-small: {
+		font-size: var(--x-small);
+	};
+
+	--small: {
+		font-size: var(--small);
+	};
+
+	--medium: {
+		font-size: var(--medium);
+	};
+
+	--mlarge: {
+		font-size: var(--mlarge);
+	};
+
+	--large: {
+		font-size: var(--large);
+	};
+
+	--x-large: {
+		font-size: var(--x-large);
+	};
+
+	--xx-large: {
+		font-size: var(--xx-large);
+	};
+
+	--xxx-large: {
+		font-size: var(--xxx-large);
+	};
+
+	--xxxx-large: {
+		font-size: var(--xxxx-large);
+	};
+
+	--white: {
+		color: var(--white);
+	};
+
+	--black: {
+		color: var(--black);
+	};
+
+	--lgray: {
+		color: var(--lgray);
+	};
+
+	--mgray: {
+		color: var(--mgray);
+	};
+
+	--gray: {
+		color: var(--gray);
+	};
+
+	--dgray: {
+		color: var(--dgray);
+	};
+	
+	--up: {
+		text-transform: uppercase;
+	};
+
+	--low: {
+		text-transform: lowercase;
+	};
+
+	--txt-left: {
+		text-align: left;
+	};
+
+	--txt-right: {
+		text-align: right;
+	};
+
+	--txt-center: {
+		text-align: center;
+	};
+
+	--ellipsis: {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	};
+}

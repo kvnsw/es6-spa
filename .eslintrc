@@ -1,0 +1,16 @@
+{
+	'extends': 'airbnb',
+	'env': {
+		'browser': true,
+		'node': true,
+		'jasmine': true
+	},
+	'rules': {
+		'indent': ['error', 'tab'],
+		'max-len': 'off',
+		'linebreak-style': ['error', 'windows']
+	},
+	'globals': {
+		'$': true,
+	}
+}

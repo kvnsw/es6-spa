@@ -1,0 +1,134 @@
+@import 'variables.css';
+@import 'font.css';
+
+:root {
+	--bg-black: {
+		background: var(--black);
+	};
+
+	--bg-white: {
+		background: var(--white);
+	};
+
+	--bg-lgray: {
+		background: var(--lgray);
+	};
+
+	--bg-mgray: {
+		background: var(--mgray);
+	};
+
+	--bg-gray: {
+		background: var(--gray);
+	};
+
+	--bg-dgray: {
+		background: var(--dgray);
+	};
+
+	--border-black: {
+		border-color: var(--black);
+	};
+
+	--border-white: {
+		border-color: var(--white);
+	};
+
+	--border-lgray: {
+		border-color: var(--lgray);
+	};
+
+	--border-mgray: {
+		border-color: var(--mgray);
+	};
+
+	--border-gray: {
+		border-color: var(--gray);
+	};
+
+	--border-dgray: {
+		border-color: var(--dgray);
+	};
+
+	--no-outline: {
+		outline: 0 !important;
+	};
+
+	--relative: {
+		position: relative;
+	};
+
+	--absolute: {
+		position: absolute;
+	};
+
+	--fixed: {
+		position: fixed;
+	};
+
+	--full: {
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	};
+
+	--overflow-auto: {
+		overflow: auto;
+	};
+
+	--no-overflow: {
+		overflow: hidden;
+	};
+
+	--no-select: {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	};
+
+	--block: {
+		display: block;
+	};
+
+	--inline: {
+		display: inline-block;
+	};
+
+	--inline-middle: {
+		@apply --inline;
+
+		vertical-align: middle;
+	};
+
+	--inline-top: {
+		@apply --inline;
+
+		vertical-align: top;
+	};
+
+	--inline-bottom: {
+		@apply --inline;
+		
+		vertical-align: bottom;
+	};
+
+	--c-margin: {
+		margin: 0 auto;
+	};
+
+	--cur-pointer: {
+		cursor: pointer;
+	};
+
+	--cur-default: {
+		cursor: default;
+	};
+
+	--transition: {
+		transition: all 200ms linear;
+	};
+}

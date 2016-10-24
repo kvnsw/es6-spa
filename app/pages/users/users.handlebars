@@ -1,0 +1,28 @@
+<div id="users-wrap">
+	<h1>Welcome to the generateusers page</h1>
+	<p class="context-msg">Context: {{contextMsg}}</p>
+	<ul>
+		<a href="#!/"><li>Go back to home</li></a>
+	</ul>
+	<div id="generated-users-wrap">
+		<h2>List of generated users</h2>
+		{{#users}}
+			{{#each results}}
+				<div class="single-user">
+					<img src="{{#picture}}{{large}}{{/picture}}" alt="">
+					<p>Username: {{#login}}{{username}}{{/login}}</p>
+					<p>Email: {{email}}</p>
+				</div>
+			{{/each}}
+		{{/users}}
+	</div>
+</div>
+
+{{!-- Preload --}}
+<div id="images-preload">
+	{{#users}}
+		{{#each results}}
+			<img src="{{#picture}}{{large}}{{/picture}}" alt="">
+		{{/each}}
+	{{/users}}
+</div>
