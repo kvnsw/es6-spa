@@ -291,7 +291,7 @@ export default class Router {
 					// coresponding route
 					for (let o = nbOfSlashes; o > 0; o--) {
 						const groupNb = o;
-						const locationToEval = cleanLocation.match(`^(?:[^\/]*\/){${groupNb}}([^\/]*)`)[0];
+						const locationToEval = cleanLocation.match(`^(?:[^/]*/){${groupNb}}([^/]*)`)[0];
 
 						for (let i = 0; i < this.nbOfRoutes; i++) {
 							// If ever a location matches
