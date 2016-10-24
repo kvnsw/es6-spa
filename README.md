@@ -40,6 +40,7 @@ Feedback and suggestions on the design are greatly appreciated!
 ```sh
 $ mkdir new_dir && cd new_dir
 $ git clone this repository
+$ cd es6-spa
 $ npm install
 $ npm run watch
 ```
